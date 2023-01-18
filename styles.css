@@ -83,3 +83,18 @@ body {
   justify-content: center;
   margin: 1rem;
  }
+
+ /* Utilities */
+ .flex-group {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+ }
+
+
+ /* Stats style */
+ .stats {}
