@@ -7,6 +7,9 @@
   --clr-neutral-400: hsl(0, 0%, 100%, 0.75);
   --clr-neutral-100: hsl(0, 0%, 100%, 0.6);
 
+  --ff-regular: 'Inter', sans-serif;
+  --ff-base: 'Lexend Deca', sans-serif;
+
   --fw-regular: 400;
   --fw-bold: 700;
 }
@@ -66,3 +69,5 @@ body {
  h6 {
   overflow-wrap: break-word;
  }
+
+ /* General styling */
