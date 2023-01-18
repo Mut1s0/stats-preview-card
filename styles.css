@@ -97,4 +97,27 @@ body {
 
 
  /* Stats style */
- .stats {}
+ .stats {
+  --content-padding: 1.5rem;
+  --content-spacing: 1rem;
+
+
+  background-color: var(--clr-secondary-400);
+  border-radius: 0.5rem;
+  overflow: hidden;
+ }
+
+ .stats__content {
+  display: grid;
+  gap: var(--content-spacing);
+  padding: var(--content-padding);
+  text-align: center;
+ }
+
+ .stats__heading {
+  font-size: 1.8rem;
+ }
+
+ .stats__heading > span {
+  color: var(--clr-tertiary-100);
+ }
