@@ -121,3 +121,16 @@ body {
  .stats__heading > span {
   color: var(--clr-tertiary-100);
  }
+
+ .stats__content > p {
+  color: var(--clr-neutral-400);
+  font-size: 1rem;
+  font-weight: var(--fw-regular);
+}
+
+.stats__statistics > div > p {
+  color: var(--clr-neutral-100);
+  font-size: 0.75rem;
+  font-family: var(--ff-base);
+  font-weight: var(--fw-bold);
+ }
