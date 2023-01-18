@@ -71,3 +71,15 @@ body {
  }
 
  /* General styling */
+ body {
+  font-family: var(--ff-regular);
+  font-weight: var(--fw-regular);
+  font-size: 0.9375rem;
+  color: var(--clr-neutral-900);
+  background-color: var(--clr-primary-900);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+ }
