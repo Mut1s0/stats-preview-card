@@ -91,6 +91,7 @@ body {
 
  .stats__content {
   margin-top: 1.5rem;
+  overflow: hidden;
  }
 
  .stats__content > p {
@@ -119,4 +120,42 @@ body {
 
  .companies, .templates, .queries {
   margin: 1rem 0;
+ }
+
+ @media only screen and (min-width:1250px) {
+  .stats {
+    margin-top: 10rem;
+    max-width: 70%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  .stats__img > img, .stats__img > source {
+    height: 100%;
+  }
+
+  .stats > .stats__content {
+    margin-top: 0;
+    width: 60%;
+    padding: 3rem 5rem;
+    text-align: left;
+  }
+
+  .stats__heading {
+    font-size: 2.3rem;
+    width: 100%;
+  }
+
+  .stats__content > p {
+    width: 100%;
+    font-size: 1.2rem;
+  }
+
+  .stats__statistics {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    text-align: left;
+  }
  }
